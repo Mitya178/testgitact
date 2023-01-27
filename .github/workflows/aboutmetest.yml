@@ -11,7 +11,9 @@ jobs:
       run : sudo apt install sphinx
     - name: cloning repository
       run : git clone https://github.com/Mitya178/testgitact.git
+    - name: check my position
+      run : pwd && ls -la
     - name: change permission
       run : sudo chmod 777 testgitact
     - name: make html
-      run : cd testgitact && make html
+      run : cd testgitact && ls -la && make html

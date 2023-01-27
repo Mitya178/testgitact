@@ -1,0 +1,17 @@
+name: AboutMe
+
+on: [push]
+
+jobs:
+  build4test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: apt install sphinx
+      run : sudo apt install sphinx
+    - name: cloning repository
+      run : git clone https://github.com/Mitya178/testgitact.git
+    - name: change permission
+      run : sudo chmod 777 Resume4Yadro
+    - name: make html
+      run : cd Resume4Yadro && make html

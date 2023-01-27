@@ -1,0 +1,28 @@
+**ТЕХНИЧЕСКИЕ НАВЫКИ**
+======================
+
+Операционные системы
+--------------------
+
+*Linux, Windows*
+
+Программирование
+----------------
+
+*shell, python, С++*
+
+Инструменты
+-----------
+
+*Github, Jenkins, Docker, Kubernetes, Artifactory, Jira, Confluence, Ansible*
+
+База данных
+-----------
+
+*MySQL*
+
+Сеть
+-------------------
+
+*Cisco switch/router*
+

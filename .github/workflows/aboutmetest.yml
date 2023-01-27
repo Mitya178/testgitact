@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: apt install sphinx
+    - name: Install sphinx
       run : sudo apt install sphinx
     - name: cloning repository
       run : git clone https://github.com/Mitya178/testgitact.git
     - name: change permission
-      run : sudo chmod 777 Resume4Yadro
+      run : sudo chmod 777 testgitact
     - name: make html
-      run : cd Resume4Yadro && make html
+      run : cd testgitact && make html
